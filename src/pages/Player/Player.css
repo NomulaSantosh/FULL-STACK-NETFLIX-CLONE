@@ -1,0 +1,31 @@
+.player{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*This centers the flex items vertically along the main axis.
+    Since flex-direction: column, the main axis is now vertical (top to bottom).
+    This means the items are pushed towards the center of the .player container vertically.*/
+
+    align-items: center;/*This centers the flex items horizontally along the cross axis.
+    Since flex-direction: column, the cross axis is horizontal (left to right).
+    This makes sure all items are aligned to the center horizontally.*/
+}
+
+.player img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.player iframe{
+    border-radius: 10px;
+}
+
+.player-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
